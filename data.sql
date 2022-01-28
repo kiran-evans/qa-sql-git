@@ -10,3 +10,9 @@ SELECT * FROM animal;
 DELETE FROM animal WHERE animal_id = 3;
 DELETE FROM animal WHERE animal_id = 4;
 SELECT * FROM animal;
+
+DESCRIBE animals_cage;
+
+INSERT INTO animals_cage( cage_zone,cage_in_use,cage_cleaned) VALUES ("Reptiles", true,true),("Mammals", true,false);
+
+SELECT * FROM animals_cage;
