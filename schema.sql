@@ -30,5 +30,3 @@ CREATE TABLE cages_in_zoo (
     FOREIGN KEY (zoo_id) REFERENCES zoo(zoo_id),
     FOREIGN KEY (cage_id) REFERENCES animals_cage(cage_id)
 );
-
-DESCRIBE zoo;
